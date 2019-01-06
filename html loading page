@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<META http-equiv="refresh" content="3;URL=index.html">
+	<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+	color: #ffddcc;
+	font-size: 25pt;
+	text-shadow: 2px 1px 2px blue;
+}
+body{
+background-image: url("images/circ.png");
+}
+</style>
+</head>
+<body>
+<audio autoplay >
+  <source src="boot.wav" type="audio/wav">
+  <p>If you can read this, your browser does not support the audio element.</p>
+</audio>
+<img src="load.gif" alt="" class="centered">
+<h1 class="centered"> IS LOADING... </h1>
+</body>
+</html>
